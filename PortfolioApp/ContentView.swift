@@ -8,15 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    var modelView = ProjectsViewModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            TabView {
+                AboutmeView()
+                    .tabItem {
+                        Image(systemName: "person.circle")
+                        Text("About me")
+                    }
+                ProjectView()
+                    .tabItem {
+                        Image(systemName: "list.bullet")
+                        Text("Projects")
+                    }
+            }
+            .onAppear{
+                modelView.deleteAllProjects()
+                modelView.addSampleData()
+            }
         }
-        .padding()
-    }
 }
 
 #Preview {

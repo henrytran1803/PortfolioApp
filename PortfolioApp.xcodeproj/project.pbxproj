@@ -14,6 +14,16 @@
 		D2CD1F182BD4AB42001C609B /* PortfolioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F172BD4AB42001C609B /* PortfolioAppTests.swift */; };
 		D2CD1F222BD4AB42001C609B /* PortfolioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F212BD4AB42001C609B /* PortfolioAppUITests.swift */; };
 		D2CD1F242BD4AB42001C609B /* PortfolioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F232BD4AB42001C609B /* PortfolioAppUITestsLaunchTests.swift */; };
+		D2CD1F382BD4AE86001C609B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D2CD1F372BD4AE86001C609B /* Realm */; };
+		D2CD1F3A2BD4AE86001C609B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D2CD1F392BD4AE86001C609B /* RealmSwift */; };
+		D2CD1F3C2BD4AFEA001C609B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F3B2BD4AFEA001C609B /* Model.swift */; };
+		D2CD1F3E2BD4AFFE001C609B /* RealmCofig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F3D2BD4AFFE001C609B /* RealmCofig.swift */; };
+		D2CD1F432BD4B36D001C609B /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F422BD4B36D001C609B /* ProjectView.swift */; };
+		D2CD1F472BD4B3DA001C609B /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F462BD4B3DA001C609B /* ViewModels.swift */; };
+		D2CD1F4B2BD4EA41001C609B /* ProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F4A2BD4EA40001C609B /* ProjectRow.swift */; };
+		D2CD1F4D2BD4EC58001C609B /* ProjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F4C2BD4EC58001C609B /* ProjectDetail.swift */; };
+		D2CD1F502BD4F13D001C609B /* AboutmeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F4F2BD4F13D001C609B /* AboutmeView.swift */; };
+		D2CD1F522BD50157001C609B /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = D2CD1F512BD50157001C609B /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,14 @@
 		D2CD1F1D2BD4AB42001C609B /* PortfolioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CD1F212BD4AB42001C609B /* PortfolioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppUITests.swift; sourceTree = "<group>"; };
 		D2CD1F232BD4AB42001C609B /* PortfolioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2CD1F3B2BD4AFEA001C609B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D2CD1F3D2BD4AFFE001C609B /* RealmCofig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCofig.swift; sourceTree = "<group>"; };
+		D2CD1F422BD4B36D001C609B /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		D2CD1F462BD4B3DA001C609B /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		D2CD1F4A2BD4EA40001C609B /* ProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRow.swift; sourceTree = "<group>"; };
+		D2CD1F4C2BD4EC58001C609B /* ProjectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetail.swift; sourceTree = "<group>"; };
+		D2CD1F4F2BD4F13D001C609B /* AboutmeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutmeView.swift; sourceTree = "<group>"; };
+		D2CD1F512BD50157001C609B /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CD1F3A2BD4AE86001C609B /* RealmSwift in Frameworks */,
+				D2CD1F382BD4AE86001C609B /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +95,7 @@
 		D2CD1EF92BD4AB40001C609B = {
 			isa = PBXGroup;
 			children = (
+				D2CD1F512BD50157001C609B /* ReadMe.md */,
 				D2CD1F042BD4AB40001C609B /* PortfolioApp */,
 				D2CD1F162BD4AB42001C609B /* PortfolioAppTests */,
 				D2CD1F202BD4AB42001C609B /* PortfolioAppUITests */,
@@ -95,9 +116,14 @@
 		D2CD1F042BD4AB40001C609B /* PortfolioApp */ = {
 			isa = PBXGroup;
 			children = (
+				D2CD1F402BD4B1FC001C609B /* Model */,
+				D2CD1F3F2BD4B1F1001C609B /* ViewModel */,
+				D2CD1F342BD4ADDD001C609B /* Services */,
+				D2CD1F332BD4ADD8001C609B /* UI */,
+				D2CD1F322BD4ADCB001C609B /* Components */,
+				D2CD1F312BD4ADBF001C609B /* Common */,
 				D2CD1F052BD4AB40001C609B /* PortfolioAppApp.swift */,
 				D2CD1F072BD4AB40001C609B /* ContentView.swift */,
-				D2CD1F092BD4AB42001C609B /* Assets.xcassets */,
 				D2CD1F0B2BD4AB42001C609B /* PortfolioApp.entitlements */,
 				D2CD1F0C2BD4AB42001C609B /* Preview Content */,
 			);
@@ -129,6 +155,88 @@
 			path = PortfolioAppUITests;
 			sourceTree = "<group>";
 		};
+		D2CD1F302BD4ADB2001C609B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F092BD4AB42001C609B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2CD1F312BD4ADBF001C609B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F302BD4ADB2001C609B /* Resources */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D2CD1F322BD4ADCB001C609B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F4E2BD4EED7001C609B /* Project */,
+				D2CD1F412BD4B340001C609B /* Home */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2CD1F332BD4ADD8001C609B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D2CD1F342BD4ADDD001C609B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F352BD4ADE5001C609B /* DBService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D2CD1F352BD4ADE5001C609B /* DBService */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F3D2BD4AFFE001C609B /* RealmCofig.swift */,
+			);
+			path = DBService;
+			sourceTree = "<group>";
+		};
+		D2CD1F3F2BD4B1F1001C609B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F462BD4B3DA001C609B /* ViewModels.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D2CD1F402BD4B1FC001C609B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F3B2BD4AFEA001C609B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2CD1F412BD4B340001C609B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F4F2BD4F13D001C609B /* AboutmeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D2CD1F4E2BD4EED7001C609B /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD1F422BD4B36D001C609B /* ProjectView.swift */,
+				D2CD1F4A2BD4EA40001C609B /* ProjectRow.swift */,
+				D2CD1F4C2BD4EC58001C609B /* ProjectDetail.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +253,10 @@
 			dependencies = (
 			);
 			name = PortfolioApp;
+			packageProductDependencies = (
+				D2CD1F372BD4AE86001C609B /* Realm */,
+				D2CD1F392BD4AE86001C609B /* RealmSwift */,
+			);
 			productName = PortfolioApp;
 			productReference = D2CD1F022BD4AB40001C609B /* PortfolioApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +329,9 @@
 				Base,
 			);
 			mainGroup = D2CD1EF92BD4AB40001C609B;
+			packageReferences = (
+				D2CD1F362BD4AE86001C609B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = D2CD1F032BD4AB40001C609B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +350,7 @@
 			files = (
 				D2CD1F0E2BD4AB42001C609B /* Preview Assets.xcassets in Resources */,
 				D2CD1F0A2BD4AB42001C609B /* Assets.xcassets in Resources */,
+				D2CD1F522BD50157001C609B /* ReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +375,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CD1F3E2BD4AFFE001C609B /* RealmCofig.swift in Sources */,
+				D2CD1F3C2BD4AFEA001C609B /* Model.swift in Sources */,
+				D2CD1F432BD4B36D001C609B /* ProjectView.swift in Sources */,
+				D2CD1F4D2BD4EC58001C609B /* ProjectDetail.swift in Sources */,
 				D2CD1F082BD4AB40001C609B /* ContentView.swift in Sources */,
+				D2CD1F502BD4F13D001C609B /* AboutmeView.swift in Sources */,
+				D2CD1F4B2BD4EA41001C609B /* ProjectRow.swift in Sources */,
+				D2CD1F472BD4B3DA001C609B /* ViewModels.swift in Sources */,
 				D2CD1F062BD4AB40001C609B /* PortfolioAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,12 +557,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.PortfolioApp;
+				PRODUCT_BUNDLE_IDENTIFIER = test.PortfolioAppNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -472,12 +595,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.PortfolioApp;
+				PRODUCT_BUNDLE_IDENTIFIER = test.PortfolioAppNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -617,6 +740,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2CD1F362BD4AE86001C609B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D2CD1F372BD4AE86001C609B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2CD1F362BD4AE86001C609B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		D2CD1F392BD4AE86001C609B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2CD1F362BD4AE86001C609B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D2CD1EFA2BD4AB40001C609B /* Project object */;
 }
