@@ -1,6 +1,15 @@
 {
-  "originHash" : "182db11c87d1734fe53a6366b674339f70901a93290bd85def29b63e25e34c43",
+  "originHash" : "96dcd746e17a69da17d8f60d2b80629d8cc6bf0f555ee2835c83524e6c4bcbf2",
   "pins" : [
+    {
+      "identity" : "axiscontribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/AxisContribution.git",
+      "state" : {
+        "revision" : "dd794264fe7f4c265e05bc0867370ed587e27279",
+        "version" : "0.5.0"
+      }
+    },
     {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",

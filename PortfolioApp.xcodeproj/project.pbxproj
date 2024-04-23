@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A2E5232BD74D9F009C0388 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E5222BD74D9F009C0388 /* HomeView.swift */; };
+		D2A2E5252BD751EF009C0388 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E5242BD751EF009C0388 /* ProjectsView.swift */; };
+		D2A2E5272BD7529C009C0388 /* ItemProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E5262BD7529C009C0388 /* ItemProject.swift */; };
+		D2A2E52A2BD7554E009C0388 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E5292BD7554E009C0388 /* SkillView.swift */; };
+		D2A2E52D2BD757B7009C0388 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E52C2BD757B7009C0388 /* AboutMeView.swift */; };
+		D2A2E5302BD7593C009C0388 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E52F2BD7593C009C0388 /* ContactView.swift */; };
+		D2A2E5332BD76685009C0388 /* AxisContribution in Frameworks */ = {isa = PBXBuildFile; productRef = D2A2E5322BD76685009C0388 /* AxisContribution */; };
+		D2A2E5352BD7A09A009C0388 /* DetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E5342BD7A09A009C0388 /* DetailItemView.swift */; };
 		D2CD1F062BD4AB40001C609B /* PortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F052BD4AB40001C609B /* PortfolioAppApp.swift */; };
 		D2CD1F082BD4AB40001C609B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD1F072BD4AB40001C609B /* ContentView.swift */; };
 		D2CD1F0A2BD4AB42001C609B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CD1F092BD4AB42001C609B /* Assets.xcassets */; };
@@ -44,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2A2E5222BD74D9F009C0388 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D2A2E5242BD751EF009C0388 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		D2A2E5262BD7529C009C0388 /* ItemProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProject.swift; sourceTree = "<group>"; };
+		D2A2E5292BD7554E009C0388 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		D2A2E52C2BD757B7009C0388 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		D2A2E52F2BD7593C009C0388 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		D2A2E5342BD7A09A009C0388 /* DetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemView.swift; sourceTree = "<group>"; };
 		D2CD1F022BD4AB40001C609B /* PortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CD1F052BD4AB40001C609B /* PortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppApp.swift; sourceTree = "<group>"; };
 		D2CD1F072BD4AB40001C609B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A2E5332BD76685009C0388 /* AxisContribution in Frameworks */,
 				D2CD1F3A2BD4AE86001C609B /* RealmSwift in Frameworks */,
 				D2CD1F382BD4AE86001C609B /* Realm in Frameworks */,
 			);
@@ -92,6 +108,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2A2E5282BD7553D009C0388 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				D2A2E5292BD7554E009C0388 /* SkillView.swift */,
+			);
+			path = Skill;
+			sourceTree = "<group>";
+		};
+		D2A2E52B2BD757AA009C0388 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				D2A2E52C2BD757B7009C0388 /* AboutMeView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		D2A2E52E2BD7592E009C0388 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				D2A2E52F2BD7593C009C0388 /* ContactView.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
 		D2CD1EF92BD4AB40001C609B = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +214,9 @@
 		D2CD1F322BD4ADCB001C609B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D2A2E52E2BD7592E009C0388 /* Contact */,
+				D2A2E52B2BD757AA009C0388 /* About */,
+				D2A2E5282BD7553D009C0388 /* Skill */,
 				D2CD1F4E2BD4EED7001C609B /* Project */,
 				D2CD1F412BD4B340001C609B /* Home */,
 			);
@@ -223,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				D2CD1F4F2BD4F13D001C609B /* AboutmeView.swift */,
+				D2A2E5222BD74D9F009C0388 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -233,6 +277,9 @@
 				D2CD1F422BD4B36D001C609B /* ProjectView.swift */,
 				D2CD1F4A2BD4EA40001C609B /* ProjectRow.swift */,
 				D2CD1F4C2BD4EC58001C609B /* ProjectDetail.swift */,
+				D2A2E5242BD751EF009C0388 /* ProjectsView.swift */,
+				D2A2E5262BD7529C009C0388 /* ItemProject.swift */,
+				D2A2E5342BD7A09A009C0388 /* DetailItemView.swift */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -256,6 +303,7 @@
 			packageProductDependencies = (
 				D2CD1F372BD4AE86001C609B /* Realm */,
 				D2CD1F392BD4AE86001C609B /* RealmSwift */,
+				D2A2E5322BD76685009C0388 /* AxisContribution */,
 			);
 			productName = PortfolioApp;
 			productReference = D2CD1F022BD4AB40001C609B /* PortfolioApp.app */;
@@ -331,6 +379,7 @@
 			mainGroup = D2CD1EF92BD4AB40001C609B;
 			packageReferences = (
 				D2CD1F362BD4AE86001C609B /* XCRemoteSwiftPackageReference "realm-swift" */,
+				D2A2E5312BD76685009C0388 /* XCRemoteSwiftPackageReference "AxisContribution" */,
 			);
 			productRefGroup = D2CD1F032BD4AB40001C609B /* Products */;
 			projectDirPath = "";
@@ -377,12 +426,19 @@
 			files = (
 				D2CD1F3E2BD4AFFE001C609B /* RealmCofig.swift in Sources */,
 				D2CD1F3C2BD4AFEA001C609B /* Model.swift in Sources */,
+				D2A2E52A2BD7554E009C0388 /* SkillView.swift in Sources */,
+				D2A2E5272BD7529C009C0388 /* ItemProject.swift in Sources */,
 				D2CD1F432BD4B36D001C609B /* ProjectView.swift in Sources */,
+				D2A2E5232BD74D9F009C0388 /* HomeView.swift in Sources */,
 				D2CD1F4D2BD4EC58001C609B /* ProjectDetail.swift in Sources */,
 				D2CD1F082BD4AB40001C609B /* ContentView.swift in Sources */,
 				D2CD1F502BD4F13D001C609B /* AboutmeView.swift in Sources */,
 				D2CD1F4B2BD4EA41001C609B /* ProjectRow.swift in Sources */,
 				D2CD1F472BD4B3DA001C609B /* ViewModels.swift in Sources */,
+				D2A2E5252BD751EF009C0388 /* ProjectsView.swift in Sources */,
+				D2A2E5352BD7A09A009C0388 /* DetailItemView.swift in Sources */,
+				D2A2E52D2BD757B7009C0388 /* AboutMeView.swift in Sources */,
+				D2A2E5302BD7593C009C0388 /* ContactView.swift in Sources */,
 				D2CD1F062BD4AB40001C609B /* PortfolioAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -742,6 +798,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D2A2E5312BD76685009C0388 /* XCRemoteSwiftPackageReference "AxisContribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jasudev/AxisContribution.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
 		D2CD1F362BD4AE86001C609B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
@@ -753,6 +817,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D2A2E5322BD76685009C0388 /* AxisContribution */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2A2E5312BD76685009C0388 /* XCRemoteSwiftPackageReference "AxisContribution" */;
+			productName = AxisContribution;
+		};
 		D2CD1F372BD4AE86001C609B /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D2CD1F362BD4AE86001C609B /* XCRemoteSwiftPackageReference "realm-swift" */;

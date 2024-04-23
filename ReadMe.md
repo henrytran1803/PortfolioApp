@@ -14,3 +14,8 @@ git clone https://github.com/henrytran1803/PortfolioApp
 
 
 [![Video](https://img.youtube.com/vi/7wJozToiMkc/0.jpg)](https://www.youtube.com/watch?v=7wJozToiMkc)
+
+version 2:
+
+
+[![Video](https://img.youtube.com/vi/xrHT6tVH8Zc/0.jpg)](https://youtube.com/shorts/xrHT6tVH8Zc)
